@@ -13,7 +13,7 @@ describe('libris.ro', () => {
        
 });
 
-    it('', async () => {
+    it('should open home page, search for a product and add to wishlist', async () => {
       await browser.url('http://libris.ro');
 
       const searchBox = await $('#autoComplete');
